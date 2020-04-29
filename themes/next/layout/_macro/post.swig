@@ -104,6 +104,7 @@
               </span>
               <span class="post-meta-item-text">{{ __('post.views') + __('symbol.colon') }}</span>
               <span class="leancloud-visitors-count"></span>
+              <span>℃</span>
             </span>
           {%- endif %}
 
@@ -215,8 +216,16 @@
       {{ partial('_partials/post/post-related.swig') }}
     {%- endif %}
 
+    <div>
+      {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+      {% endif %}
+    </div>
+
+
     {%- if not is_index %}
       {{- next_inject('postBodyEnd') }}
+
 
       {%- if post.reward_settings.enable %}
         {{ partial('_partials/post/post-reward.swig') }}

@@ -8,12 +8,12 @@ subtitle: 'Dream it possible'
 description: ''
 keywords:
 author: j1nyan
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://j1nyandev.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,3 +102,21 @@ deploy:
   repository:
     github: git@github.com:j1nyanDev/j1nyanDev.github.io.git
   branch: master
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-wanko #这个是你要修改的
+  display:
+    position: left #在屏幕上的显示位置
+    width: 150 #显示宽度
+    height: 300 #显示高度
+  mobile:
+    show: false #手机端是否显示
+
