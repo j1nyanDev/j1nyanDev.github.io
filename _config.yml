@@ -122,4 +122,11 @@ live2d:
   mobile:
     show: false #手机端是否显示
 
+backup:
+  type: git
+  theme: next
+  message: Back up my blog
+  repository:
+    #github: git@github.com:TRHX/TRHX.github.io.git,backup
+    coding: git@e.coding.net:j1nyandev/j1nyandev/j1nyandev.git
 
