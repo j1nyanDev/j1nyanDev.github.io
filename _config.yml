@@ -100,8 +100,10 @@ theme: next
 deploy:
   type: git
   repository:
-    github: git@github.com:j1nyanDev/j1nyanDev.github.io.git
-  branch: master
+    github: 
+      git@github.com:j1nyanDev/j1nyanDev.github.io.git,master
+    coding: 
+      git@e.coding.net:j1nyandev/j1nyandev/j1nyandev.git,master
 
 live2d:
   enable: true

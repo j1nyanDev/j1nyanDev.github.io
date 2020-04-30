@@ -416,10 +416,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: //fonts.lug.ustc.edu.cn # fonts.lug.ustc.edu.cn是中科大的源。
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -856,7 +856,7 @@ pace:
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
+  theme: big-counter
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
