@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -119,4 +119,5 @@ live2d:
     height: 300 #显示高度
   mobile:
     show: false #手机端是否显示
+
 
