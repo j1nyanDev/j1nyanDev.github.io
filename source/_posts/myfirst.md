@@ -1,15 +1,29 @@
 ---
-title: myfirst
+title: 你追求的正义，真的是你想的正义吗
 copyright: true
 date: 2020-04-30 22:09:01
-tags: 测试
-categories: test
+tags: 随笔
+categories: 
 ---
 
-仅仅只是一个测试！
+品统一绿茶，尝百味人生。未曾想过自己会对正义产生如此复杂的想法<!-- more -->
 
-<!-- more -->
+或许可能只是在一念之间，认定这就是正义
 
-![](./myfirst/nvshen.gif)
+哪怕受到嘲讽、偏见和反对，却还是一意孤行
 
-gif
+直到最后的最后连自己都对此产生怀疑：
+
+是我错了吗？
+
+难道这不是我认为的正义吗？
+
+还是因为
+
+是世界错了吗？
+
+不，是我错了。
+
+错在太相信这个世界。
+
+<img title="" src="./myfirst/nvshen.gif" alt="" data-align="center">
